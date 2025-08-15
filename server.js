@@ -5,6 +5,8 @@ const morgan = require('morgan');
 const logger = require('./config/logger');
 require('dotenv').config();
 
+const path = require('path');
+
 const authRoutes = require('./routes/authRoutes');
 const domainRoutes = require('./routes/domainRoutes');
 
@@ -12,6 +14,11 @@ const auth = require('./middleware/authMiddleware');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+
+// DB Connection
+mongoose.connect(process.env.MONGO_URI)
+    .then(() => logger.info('MongoDB connected'))
+    .catch(err => logger.error('MongoDB error:', err));
 
 // Middleware
 app.use(express.json());
@@ -29,10 +36,7 @@ app.use(morgan('combined', {
     }
 }));
 
-// DB Connection
-mongoose.connect(process.env.MONGO_URI)
-    .then(() => logger.info('MongoDB connected'))
-    .catch(err => logger.error('MongoDB error:', err));
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Routes
 app.use('/api/auth', authRoutes);
@@ -42,7 +46,6 @@ app.use('/api/domains', domainRoutes);
 app.get('/api/protected/test', auth, (req, res) => {
     res.json({ message: `Welcome, ${req.user.name}` });
 });
-
 
 app.listen(PORT, () => {
     logger.info(`Server running on port ${PORT}`);
