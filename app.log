@@ -1,0 +1,50 @@
+2025-08-15T15:22:01.150Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:22:01.165Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:23:05.787Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:23:05.803Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:23:13.131Z [[31merror[39m]: Error creating user:
+2025-08-15T15:23:13.135Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:23:13 +0000] "POST /api/users HTTP/1.1" 500 33 "-" "PostmanRuntime/7.43.4"
+2025-08-15T15:23:48.592Z [[32minfo[39m]: Created user: tipu@gmail.com
+2025-08-15T15:23:48.594Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:23:48 +0000] "POST /api/users HTTP/1.1" 201 83 "-" "PostmanRuntime/7.43.4"
+2025-08-15T15:28:13.522Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:28:13.551Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:28:43.504Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:28:43.517Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:28:59.961Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:28:59.973Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:29:07.316Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:29:07.328Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:29:44.404Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:29:44.420Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:29:54.191Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:29:54.204Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:30:21.542Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:30:21.556Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:30:25.014Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:30:25.026Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:31:21.543Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:31:21.557Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:32:24.457Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:32:24.471Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:32:38.865Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:32:38.877Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:33:53.803Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:33:53.819Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:36:36.616Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:36:36.630Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:38:20.251Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:38:20.265Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:39:04.421Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:39:04 +0000] "POST /api/auth/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.43.4"
+2025-08-15T15:39:46.221Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:39:46 +0000] "POST /api/auth/login HTTP/1.1" 500 50 "-" "PostmanRuntime/7.43.4"
+2025-08-15T15:40:28.438Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:40:28 +0000] "POST /api/auth/login HTTP/1.1" 500 50 "-" "PostmanRuntime/7.43.4"
+2025-08-15T15:43:20.558Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T15:43:20.573Z [[32minfo[39m]: MongoDB connected
+2025-08-15T15:43:25.470Z [[32minfo[39m]: Request
+2025-08-15T15:43:25.483Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:43:25 +0000] "POST /api/auth/login HTTP/1.1" 500 50 "-" "PostmanRuntime/7.43.4"
+2025-08-15T15:44:56.427Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:44:56 +0000] "POST /api/auth/register HTTP/1.1" 400 33 "-" "PostmanRuntime/7.43.4"
+2025-08-15T15:45:58.334Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:45:58 +0000] "POST /api/auth/register HTTP/1.1" 201 183 "-" "PostmanRuntime/7.43.4"
+2025-08-15T15:48:06.572Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:48:06 +0000] "GET /api/protected/test HTTP/1.1" 200 29 "-" "PostmanRuntime/7.43.4"
+2025-08-15T15:48:39.497Z [[32minfo[39m]: Request
+2025-08-15T15:48:39.571Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:48:39 +0000] "POST /api/auth/login HTTP/1.1" 400 33 "-" "PostmanRuntime/7.43.4"
+2025-08-15T15:48:44.962Z [[32minfo[39m]: Request
+2025-08-15T15:48:45.044Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:48:45 +0000] "POST /api/auth/login HTTP/1.1" 200 183 "-" "PostmanRuntime/7.43.4"
