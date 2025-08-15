@@ -25,7 +25,7 @@ exports.createDomain = async (req, res) => {
         // 1. Get screenshot for preview
         let previewImage = null;
         try {
-            let previewImage = await getUrlPreview(url);
+            previewImage = await getUrlPreview(url);
         } catch (err) {
             console.error('Failed to generate preview:', err.message);
             previewImage = null;
