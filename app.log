@@ -48,3 +48,32 @@
 2025-08-15T15:48:39.571Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:48:39 +0000] "POST /api/auth/login HTTP/1.1" 400 33 "-" "PostmanRuntime/7.43.4"
 2025-08-15T15:48:44.962Z [[32minfo[39m]: Request
 2025-08-15T15:48:45.044Z [[32minfo[39m]: ::1 - - [15/Aug/2025:15:48:45 +0000] "POST /api/auth/login HTTP/1.1" 200 183 "-" "PostmanRuntime/7.43.4"
+2025-08-15T20:59:10.090Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T20:59:10.105Z [[32minfo[39m]: MongoDB connected
+2025-08-15T20:59:15.672Z [[32minfo[39m]: ::1 - - [15/Aug/2025:20:59:15 +0000] "OPTIONS /api/domains HTTP/1.1" 200 4 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+2025-08-15T21:01:01.323Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:01:01 +0000] "OPTIONS /api/domains/ HTTP/1.1" 200 4 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+2025-08-15T21:01:44.087Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T21:01:44.100Z [[32minfo[39m]: MongoDB connected
+2025-08-15T21:02:21.786Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T21:02:21.799Z [[32minfo[39m]: MongoDB connected
+2025-08-15T21:04:10.463Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T21:04:10.476Z [[32minfo[39m]: MongoDB connected
+2025-08-15T21:04:35.205Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:04:35 +0000] "POST /api/domains/ HTTP/1.1" 201 207 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+2025-08-15T21:14:03.989Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T21:14:04.004Z [[32minfo[39m]: MongoDB connected
+2025-08-15T21:14:33.141Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T21:14:33.156Z [[32minfo[39m]: MongoDB connected
+2025-08-15T21:18:38.194Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:18:38 +0000] "GET /api/domains HTTP/1.1" 200 209 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+2025-08-15T21:18:58.278Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:18:58 +0000] "GET /api/domains HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+2025-08-15T21:19:00.591Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:19:00 +0000] "GET /api/domains HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+2025-08-15T21:19:35.381Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:19:35 +0000] "GET /api/domains HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+2025-08-15T21:21:16.664Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:21:16 +0000] "GET /api/domains HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+2025-08-15T21:22:21.275Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T21:22:21.290Z [[32minfo[39m]: MongoDB connected
+2025-08-15T21:25:41.022Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:25:41 +0000] "GET /api/domains HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+2025-08-15T21:26:19.304Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:26:19 +0000] "POST /api/domains/ HTTP/1.1" 400 68 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+2025-08-15T21:27:16.540Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:27:16 +0000] "POST /api/domains/ HTTP/1.1" 400 68 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+2025-08-15T21:28:10.270Z [[32minfo[39m]: Server running on port 5000
+2025-08-15T21:28:10.283Z [[32minfo[39m]: MongoDB connected
+2025-08-15T21:28:11.794Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:28:11 +0000] "POST /api/domains/ HTTP/1.1" 201 195 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
+2025-08-15T21:28:18.366Z [[32minfo[39m]: ::1 - - [15/Aug/2025:21:28:18 +0000] "GET /api/domains HTTP/1.1" 200 405 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36"
