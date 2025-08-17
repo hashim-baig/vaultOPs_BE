@@ -3,6 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 const logger = require('./config/logger');
+const cookieParser = require("cookie-parser");
 require('dotenv').config();
 
 const path = require('path');
@@ -35,6 +36,8 @@ app.use(morgan('combined', {
         write: (message) => logger.info(message.trim())
     }
 }));
+
+app.use(cookieParser());
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 

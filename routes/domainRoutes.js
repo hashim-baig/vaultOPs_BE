@@ -1,8 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const { createDomain, getAllDomains } = require('../controllers/domainController');
+const auth = require('../middleware/authMiddleware');
 
-// POST /api/domains
+router.use(auth)
+
+// /api/domains
 router.post('/', createDomain);
 router.get('/', getAllDomains);
 
